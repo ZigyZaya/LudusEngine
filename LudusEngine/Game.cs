@@ -23,6 +23,9 @@ namespace LudusEngine
 		private LuaFunction? _luaDraw;
 		private LuaFunction? _luaInit;
 		
+		// App
+		private Assembly _gameAssembly;
+		
 		// Window
 		private GameWindow _window;
 		
@@ -163,6 +166,9 @@ namespace LudusEngine
 			_lua = new Lua();
 			_lua.LoadCLRPackage();
 
+			var mainha = new Teste();
+			_lua["teste"] = mainha;
+			
 			// load main.lua
 			var script = GetLuaScript();
 			_lua.DoString(script);
@@ -171,13 +177,21 @@ namespace LudusEngine
 			_luaUpdate = _lua.GetFunction("Update");
 			_luaDraw = _lua.GetFunction("Draw");
 			_luaInit = _lua.GetFunction("Init");
-		}
+			
 
-		private Assembly _gameAssembly;
+		}
 
 		protected void SetGameAssembly(Assembly assembly)
 		{
 			_gameAssembly = assembly;
+		}
+	}
+
+	public class Teste
+	{
+		public void Piranha()
+		{
+			Console.WriteLine("Piranha");
 		}
 	}
 }

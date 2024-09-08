@@ -7,20 +7,46 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6dd5f4c1-828c-4cdf-8acf-c7ae9b72061c" name="Changes" comment="" />
+    <list default="true" id="6dd5f4c1-828c-4cdf-8acf-c7ae9b72061c" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/LudusEngine/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SandBox/Lua/teste.lua" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.LudusEngine/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.LudusEngine/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LudusEngine/Game.cs" beforeDir="false" afterPath="$PROJECT_DIR$/LudusEngine/Game.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SandBox/Lua/main.lua" beforeDir="false" afterPath="$PROJECT_DIR$/SandBox/Lua/main.lua" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SandBox/Main.cs" beforeDir="false" afterPath="$PROJECT_DIR$/SandBox/Main.cs" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DpaMonitoringSettings">
+    <option name="autoShow" value="false" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="vs-template" />
         <option value="fs-template" />
+        <option value="NewLua" />
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "ZigyZaya"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/ZigyZaya/LudusEngine.git",
+    "accountId": "16fe1900-6ce7-48d2-bf54-5384efa62abc"
+  }
+}]]></component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/SandBox/Main.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
@@ -31,7 +57,9 @@
   &quot;associatedIndex&quot;: 6
 }</component>
   <component name="ProjectId" id="2lKwI0YyRhkW78zNfDngIyXQBkR" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -39,11 +67,12 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     ".NET Executable.Exe.executor": "Run",
-    ".NET Project.Run.executor": "Debug",
+    ".NET Project.Run.executor": "Run",
     ".NET Project.SandBox.executor": "Run",
     "Publish to folder.Generate DLL.executor": "Run",
     "Publish to folder.Generate dll.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "master",
     "ignore.virus.scanning.warn.message": "true",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
@@ -116,7 +145,7 @@
       <workItem from="1725753576054" duration="272000" />
       <workItem from="1725753877442" duration="2043000" />
       <workItem from="1725801452126" duration="35000" />
-      <workItem from="1725801495682" duration="9234000" />
+      <workItem from="1725801495682" duration="13085000" />
     </task>
     <servers />
   </component>
