@@ -9,8 +9,8 @@
     </PropertyGroup>
 
     <ItemGroup>
-      <ProjectReference Include="..\LudusEngine\LudusEngine.csproj" />
-        <EmbeddedResource Include="Lua\main.lua" />
+        <ProjectReference Include="..\LudusEngine\LudusEngine.csproj"/>
+        <EmbeddedResource Include="Lua\main.lua"/>
     </ItemGroup>
 
 </Project>

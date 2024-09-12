@@ -8,12 +8,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6dd5f4c1-828c-4cdf-8acf-c7ae9b72061c" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/LudusEngine/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SandBox/Lua/teste.lua" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.LudusEngine/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.LudusEngine/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/LudusEngine/Game.cs" beforeDir="false" afterPath="$PROJECT_DIR$/LudusEngine/Game.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LudusEngine/Graphics/Rectangle.cs" beforeDir="false" afterPath="$PROJECT_DIR$/LudusEngine/Graphics/Rectangle.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LudusEngine/Graphics/Shaders/Shader.cs" beforeDir="false" afterPath="$PROJECT_DIR$/LudusEngine/Graphics/Shaders/Shader.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LudusEngine/Graphics/Shaders/shader.frag" beforeDir="false" afterPath="$PROJECT_DIR$/LudusEngine/Graphics/Shaders/shader.frag" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LudusEngine/Graphics/Shape.cs" beforeDir="false" afterPath="$PROJECT_DIR$/LudusEngine/Graphics/Shape.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LudusEngine/LudusEngine.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/LudusEngine/LudusEngine.csproj" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/SandBox/Lua/main.lua" beforeDir="false" afterPath="$PROJECT_DIR$/SandBox/Lua/main.lua" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/SandBox/Main.cs" beforeDir="false" afterPath="$PROJECT_DIR$/SandBox/Main.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SandBox/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/SandBox/Program.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SandBox/SandBox.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/SandBox/SandBox.csproj" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,21 +40,23 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "ZigyZaya"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;ZigyZaya&quot;
   }
-}]]></component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/ZigyZaya/LudusEngine.git",
-    "accountId": "16fe1900-6ce7-48d2-bf54-5384efa62abc"
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/ZigyZaya/LudusEngine.git&quot;,
+    &quot;accountId&quot;: &quot;16fe1900-6ce7-48d2-bf54-5384efa62abc&quot;
   }
-}]]></component>
+}</component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/LudusEngine/Game.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/SandBox/Main.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
+  <component name="MetaFilesCheckinStateConfiguration" checkMetaFiles="true" />
   <component name="ProblemsViewState">
     <option name="selectedTabId" value="CurrentFile" />
   </component>
@@ -79,7 +86,7 @@
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "settings.sync",
+    "settings.editor.selected.configurable": "editor.preferences.tabs",
     "vue.rearranger.settings.migration": "true"
   },
   "keyToStringList": {
@@ -145,16 +152,30 @@
       <workItem from="1725753576054" duration="272000" />
       <workItem from="1725753877442" duration="2043000" />
       <workItem from="1725801452126" duration="35000" />
-      <workItem from="1725801495682" duration="13085000" />
+      <workItem from="1725801495682" duration="13359000" />
+      <workItem from="1726076342403" duration="101000" />
+      <workItem from="1726076481043" duration="4654000" />
     </task>
+    <task id="LOCAL-00001" summary="Discovered a few things that i have to change someday, like te LuaLoad system">
+      <option name="closed" value="true" />
+      <created>1725822422360</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1725822422361</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="UnityCheckinConfiguration" checkUnsavedScenes="true" />
   <component name="UnityProjectConfiguration" hasMinimizedUI="false" />
   <component name="VcsManagerConfiguration">
     <option name="LOCAL_CHANGES_DETAILS_PREVIEW_SHOWN" value="false" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
+    <MESSAGE value="Discovered a few things that i have to change someday, like te LuaLoad system" />
+    <option name="LAST_COMMIT_MESSAGE" value="Discovered a few things that i have to change someday, like te LuaLoad system" />
   </component>
 </project>

@@ -67,6 +67,8 @@ public class Shader : IDisposable
 	public void Use(float[] color)
 	{
 		GL.UseProgram(Handle);
+		
+		// get and set shader color
 		int colorLocation = GL.GetUniformLocation(Handle, "uColor");
 		GL.Uniform3(colorLocation, color[0], color[1], color[2]);
 	}

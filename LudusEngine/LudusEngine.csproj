@@ -7,11 +7,12 @@
     </PropertyGroup>
 
     <ItemGroup>
-      <PackageReference Include="NLua" Version="1.7.3" />
-      <PackageReference Include="OpenTK" Version="4.8.2" />
-        <EmbeddedResource Include="Graphics\Shaders\shader.frag" />
-        <EmbeddedResource Include="Graphics\Shaders\shader.vert" />
-        
+        <PackageReference Include="NLua" Version="1.7.3"/>
+        <PackageReference Include="OpenTK" Version="4.8.2"/>
+        <EmbeddedResource Include="Graphics\Shaders\shader.frag"/>
+        <EmbeddedResource Include="Graphics\Shaders\shader.vert"/>
+        <PackageReference Include="StbImageSharp" Version="2.27.14" />
+
     </ItemGroup>
 
 </Project>

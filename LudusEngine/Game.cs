@@ -6,17 +6,20 @@ using System.Reflection;
 using LudusEngine.Graphics;
 using NLua;
 using NLua.Exceptions;
+using OpenTK.Mathematics;
 using OpenTK.Windowing.Common;
 using Rectangle = LudusEngine.Graphics.Rectangle;
+
 
 namespace LudusEngine
 {
 	public abstract class Game
 	{
 		// Run
+        
 		private float _deltaTime;
-
-		// Lua
+        
+		// lua
 		private bool _useLua;
 		private Lua _lua;
 		private LuaFunction? _luaUpdate;
@@ -25,7 +28,7 @@ namespace LudusEngine
 		
 		// App
 		private Assembly _gameAssembly;
-		
+        
 		// Window
 		private GameWindow _window;
 		
@@ -43,12 +46,13 @@ namespace LudusEngine
 		{
 		}
 
-		public void Run(string title, int width, int height, int targetFps)
+		public void Run(string title, Vector2i screen, int fps)
 		{
 			// configure lua scripts and run the Init() functions
 			if (_useLua)
 			{
 				ConfigureLua();
+				
 				try
 				{
 					_luaInit.Call(_lua);
@@ -68,14 +72,14 @@ namespace LudusEngine
 			// configure window
 			var nativeWindowSettings = new NativeWindowSettings()
 			{
-				ClientSize = (width, height),
+				ClientSize = screen,
 				Title = title,
 				APIVersion = new Version(3, 3)
 			};
 
 			_window = new GameWindow(new GameWindowSettings
 			{ 
-				UpdateFrequency = targetFps,
+				UpdateFrequency = fps,
 				
 			}, nativeWindowSettings);
 
@@ -90,7 +94,7 @@ namespace LudusEngine
         // window
         private void OnLoad()
         {
-	        GL.ClearColor(Color.DarkCyan);
+	        GL.ClearColor(Color.DarkSlateGray);
 	        foreach (Shape shape in _shapeInstances)
 	        {
 		        shape.InitializeBuffers();
@@ -147,7 +151,7 @@ namespace LudusEngine
 				.FirstOrDefault(name => name.EndsWith("main.lua"));
 
 			if (resourceName == null)
-				throw new FileNotFoundException("Lua script not found.");
+				throw new FileNotFoundException("Lua sript not found.");
 
 			using (var stream = _gameAssembly.GetManifestResourceStream(resourceName))
 			{

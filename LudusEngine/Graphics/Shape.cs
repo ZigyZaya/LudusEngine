@@ -16,7 +16,6 @@ public class Shape
 		-0.5f, -0.5f, 0.0f,  // bottom left
 		-0.5f,  0.5f, 0.0f   // top left
 	};
-
 	
 	protected Shader ShapeShader;
 	protected float[] ShapeColor;

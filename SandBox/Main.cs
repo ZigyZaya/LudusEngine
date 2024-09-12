@@ -7,7 +7,7 @@ namespace SandBox;
 
 public class Main : Game
 {
-	public Main() : base(useLua: true)
+	public Main() : base(useLua: false)
 	{
 		SetGameAssembly(Assembly.GetExecutingAssembly());
 	}

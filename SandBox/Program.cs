@@ -1,4 +1,5 @@
-﻿using SandBox;
+﻿using OpenTK.Mathematics;
+using SandBox;
 
 Main main = new Main();
-main.Run("SandBox", 640, 320, 0);
+main.Run("SandBox", new Vector2i(640, 320), 0);
